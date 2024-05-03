@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hire Me</title>
+    <style>
+      #detail{
+        margin-left: 33%;
+      }
+      form{
+      margin-top: 6%;
+        margin-left: 33%;
+        border: 3px solid;
+        width: 300px;
+        padding: 15px;
+        border-radius: 8px;
+        background-color: rgb(34, 175, 171);   
+      }
+      .button{
+      background-color:#a9dfe4;
+      border: solid  rgb(162, 219, 239);
+      border-radius: 5px;
+      
+      }
+      button{
+        margin-left: 20px;
+
+      }
+
+      #submit{
+        margin-left: 130px;
+      }
+      #textarea{
+        border: 2px;
+        border-radius: 4px;
+      margin-left: 17px;
+      }
+      .hireme{
+        background-color: rgb(247, 247, 247);
+        border: 1px;
+        border-radius: 4px;
+      }
+    </style>
+  </head>
+  <body>
+  
+    <h1>Hire Me</h1>
+    <ul id="detail">
+      <li>
+        Unlock your business growth potential with our exclusive services.
+      </li>
+      <li>
+        Elevate your online presence with user-friendly websites designed for
+        conversions.
+      </li>
+      <li>Utilize the latest technologies and a passion for excellence.</li>
+      <li>Kickstart your journey to success with us.</li>
+      <li>
+        Our dedicated representative will reach out to you at your convenience.
+      </li>
+    </ul>
+    <form action="">
+      <label for="username">Name</label>
+      &nbsp;<input type="text" class="hireme" id="username" required> <br><br>
+      <label for="email" >Email</label>
+      &nbsp;<input type="email" class="hireme" id="email" required><br><br>
+      <label for="orgainization">Orgainization</label>
+      &nbsp;<input type="text"  class="hireme"id="orgainization" required><br><br>
+      <label for="Schedule">Schedule Time</label> 
+      &nbsp;<input type="time" class="hireme" id="schedule" required> <br><br>
+      Select &nbsp;<select class="hireme" name="Jobtype" id="jobtype">
+        <option value="Freelance" class="hireme">Freelance</option>
+        <option value="Contract"> Contract</option>
+        <option value="consultancy" class="hireme"> Consultancy</option>
+        <option value="fulltime" class="hireme">Full Time Job</option>
+      </select><br><br>
+      &nbsp;<textarea name="Additional" id="textarea" cols="30" rows="05">Additional....</textarea>      <br><br>
+
+      <button id="Cancel" class="button">Cancel</button>
+      <input type="submit" id="submit" class="button">
+
+
+    </form>
+  </body>
+</html>
